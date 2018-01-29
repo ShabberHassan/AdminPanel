@@ -9,7 +9,7 @@ Resource  ../Resources/PO/CreateResourceQ.robot
 *** Keywords ***
 Login CCAdmin
    LoginPage.Login
-   LoginPage.Verify Page Loaded  Admin Panel
+   LoginPage.Verify Page Loaded  Admin Panel/ECM
 Access Queue list
      LeftNav.Queue
 Create Resource CSQ

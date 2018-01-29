@@ -3,7 +3,7 @@ Library  ExtendedSelenium2Library
 
 *** Variables ***
 ${BROWSER} =  firefox
-${Start_url} =  http://192.168.1.81:8080/efadminpanel/
+${Start_url} =  http://192.168.1.92:8080/efadminpanel/
 
 *** Keywords ***
 Begin Test
